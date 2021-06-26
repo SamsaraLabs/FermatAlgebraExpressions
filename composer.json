@@ -1,0 +1,42 @@
+{
+  "name": "samsara/fermat-algebra-expressions",
+  "type": "library",
+  "description": "A module for the Fermat math library which adds algebraic expressions.",
+  "keywords": ["math", "bigint", "large numbers", "numbers", "functions", "integrals", "derivatives", "polynomials", "expressions", "algebra"],
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://jordanrl.github.io/Fermat/",
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/JordanRL"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/JordanRL/Fermat/issues",
+    "docs": "https://jordanrl.github.io/Fermat/",
+    "source": "https://github.com/SamsaraLabs/FermatAlgebraExpressions"
+  },
+  "authors": [
+    {
+      "name": "Jordan LeDoux",
+      "homepage": "https://github.com/JordanRL",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "samsara/fermat": ">=v2.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "9.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Samsara\\Fermat\\": "src/Samsara/Fermat/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Samsara\\Fermat\\": "tests/Samsara/Fermat/"
+    }
+  }
+}
